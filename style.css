@@ -108,7 +108,8 @@ button:hover {
 
 @media (min-width: 992px) {
     .component {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat (3,1fr);
         justify-content: center;
         min-height: 100vh;
         max-width: 900px;
